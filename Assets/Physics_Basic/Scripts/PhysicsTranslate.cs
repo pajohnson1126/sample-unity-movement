@@ -2,28 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PhysicsTranslate : MonoBehaviour
+public class PhysicsTranslate : PhysicsBase
 {
 
-    protected Rigidbody rb;
-    public float thrust = 10f;
-    public Vector3 direction;
 
-
-    void Start()
+    protected override void Update()
     {
-        rb = GetComponent<Rigidbody>();
+        // call in base 
+        base.Update();
+        MoveCube();
     }
 
-    void Update()
+    void MoveCube()
     {
-        // update is the best place to capture Input data 
-        MoveCube(new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")));
-    }
-
-    void MoveCube(Vector3 direction)
-    {
-        transform.Translate(direction * thrust * Time.deltaTime);
+        transform.Translate(playerInput * thrust * Time.deltaTime);
     }
 
 }

@@ -5,11 +5,6 @@ using UnityEngine;
 public class PhysicsInfo : MonoBehaviour
 {
 
-    // See
-    // https://www.youtube.com/watch?v=ixM2W2tPn6c
-    // https://www.youtube.com/watch?v=BNiAt0HnC5M
-
-
     public float speed;
     public float angularSpeed;
     protected Rigidbody rb;
