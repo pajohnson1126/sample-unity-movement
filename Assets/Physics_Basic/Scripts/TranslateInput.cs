@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PhysicsTranslate : PhysicsBase
+public class TranslateInput : PhysicsBase
 {
 
 

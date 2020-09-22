@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Floating : MonoBehaviour
+public class MovePositionFloating : PhysicsBase
 {
     // reference https://www.youtube.com/watch?v=mFOi6W7lohk
 
-    protected Rigidbody rb;             // rigidbody of gameobject
-    public float thrust = 10f;          // amount of thrust added to direction
 
     // amplitude (size) and frequency (speed) of the wave
     [SerializeField]
@@ -42,7 +40,5 @@ public class Floating : MonoBehaviour
 
         // add the product of newPos * thrust value * time to current position 
         rb.MovePosition(transform.position + (newPos * thrust * Time.deltaTime));
-
     }
-
 }

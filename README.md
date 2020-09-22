@@ -14,9 +14,12 @@ A sample Unity (2020.1) project that shows
 
 ## Physics Basic Scene
 
-- CubeTranslate - Uses `transform.Translate()` to move; Good for simple object movement but, since you are controlling this directly, all physics interactions (collissions, etc.) will result in unexpected results
+- CubeTranslate - Uses `transform.Translate()` to "teleport" to position. Good for simple object movement but, since you are controlling this directly, all physics interactions (collissions, etc.) will result in unexpected results or just not work.
 - CubeAddforce - A simple `AddForce()` example.
 - CubeMovePosition - `Rigidbody.MovePosition()` manipulates transform.position, but calculates collision (mostly) along the way.
+
+
+
 
 
 See these tutorials for more

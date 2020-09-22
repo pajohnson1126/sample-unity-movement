@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PhysicsAddForce : PhysicsBase
+public class AddForce : PhysicsBase
 {
 
 
