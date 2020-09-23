@@ -37,19 +37,6 @@ public class MovePositionWander : PhysicsBase {
 
 		//Debug.Log (wayPoint + " and " + (transform.position - wayPoint).magnitude);
 
-
-
-
-
-
-
-
-
-		// uses transform to teleport
-		//transform.position += transform.TransformDirection (Vector3.forward) * thrust * Time.deltaTime;
-
-
-
 		// get direction from facing direction
 		direction = transform.TransformDirection (Vector3.forward);
 
