@@ -2,22 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovePositionNoise : PhysicsBase {
+public class TransformNoise : PhysicsBase {
 
 	public Vector3 direction; // a new direction vector
 
 
-	void FixedUpdate ()
+	protected override void Update ()
 	{
+		// call in base 
+		base.Update ();
+
 		// get new direction from noise
 		direction = VectorFromNoise ();
 
-		// distance to move each frame = normalized distance vector * speed * time since last frame
+		// direction to move each frame = normalized input vector * speed * time since last frame
 		Vector3 step = direction * thrust * Time.deltaTime;
 
 		// add step vector to current position
-		rb.MovePosition (transform.position + step);
+		transform.position += step;
+		// this does the same as above
+		//transform.Translate (step);
 	}
+
 
 
 	// random direction vector from Perlin noise
