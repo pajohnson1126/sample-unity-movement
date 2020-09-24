@@ -19,7 +19,8 @@ A sample Unity (2020.1.2f1) project that shows
 
 A Hello World! for basic physics in game engines. Just press play!
 
-
+- What happens when you move the RigidBody from a letter to its individual cubes?
+- What happens when you turn the Fish GameObject on while the game is running?
 
 
 
