@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 69064276}
   - component: {fileID: 69064275}
   m_Layer: 0
-  m_Name: Wander (6)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -633,7 +633,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69064273}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 595940934}
@@ -665,7 +665,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 69064273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -700,7 +700,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &69064279
 MeshRenderer:
@@ -1450,7 +1450,7 @@ GameObject:
   - component: {fileID: 130109150}
   - component: {fileID: 130109149}
   m_Layer: 0
-  m_Name: Wander (11)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1464,7 +1464,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130109147}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 2, y: 1, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 978208783}
@@ -1496,7 +1496,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 130109147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -1531,7 +1531,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &130109153
 MeshRenderer:
@@ -3038,7 +3038,7 @@ GameObject:
   - component: {fileID: 175762834}
   - component: {fileID: 175762833}
   m_Layer: 0
-  m_Name: Wander (16)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3052,7 +3052,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175762831}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 4, y: 1, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1899089480}
@@ -3084,7 +3084,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 175762831}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -3119,7 +3119,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &175762837
 MeshRenderer:
@@ -3839,7 +3839,7 @@ GameObject:
   - component: {fileID: 245577841}
   - component: {fileID: 245577840}
   m_Layer: 0
-  m_Name: Wander (24)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3853,7 +3853,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 245577838}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: -4, y: 1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 713347285}
@@ -3885,7 +3885,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 245577838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -3920,7 +3920,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &245577844
 MeshRenderer:
@@ -4722,7 +4722,7 @@ GameObject:
   - component: {fileID: 273051846}
   - component: {fileID: 273051845}
   m_Layer: 0
-  m_Name: Wander (5)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4736,7 +4736,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273051843}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: -2, y: 1, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1625208293}
@@ -4768,7 +4768,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 273051843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -4803,7 +4803,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &273051849
 MeshRenderer:
@@ -4870,7 +4870,7 @@ GameObject:
   - component: {fileID: 280265321}
   - component: {fileID: 280265320}
   m_Layer: 0
-  m_Name: Wander (8)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4884,7 +4884,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280265318}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 660052614}
@@ -4916,7 +4916,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 280265318}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -4951,7 +4951,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &280265324
 MeshRenderer:
@@ -5308,7 +5308,7 @@ GameObject:
   - component: {fileID: 310855888}
   - component: {fileID: 310855887}
   m_Layer: 0
-  m_Name: Wander (21)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5322,7 +5322,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310855885}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: -4, y: 1, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 800720152}
@@ -5354,7 +5354,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 310855885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -5389,7 +5389,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &310855891
 MeshRenderer:
@@ -5456,7 +5456,7 @@ GameObject:
   - component: {fileID: 325267479}
   - component: {fileID: 325267478}
   m_Layer: 0
-  m_Name: Wander (12)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5470,7 +5470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325267476}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 2, y: 1, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1528857014}
@@ -5502,7 +5502,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 325267476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -5537,7 +5537,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &325267482
 MeshRenderer:
@@ -5604,7 +5604,7 @@ GameObject:
   - component: {fileID: 342463985}
   - component: {fileID: 342463984}
   m_Layer: 0
-  m_Name: Wander (25)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5618,7 +5618,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342463982}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: -4, y: 1, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 987686353}
@@ -5650,7 +5650,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 342463982}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -5685,7 +5685,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &342463988
 MeshRenderer:
@@ -6613,7 +6613,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471787325
 GameObject:
@@ -6951,7 +6951,7 @@ GameObject:
   - component: {fileID: 497046829}
   - component: {fileID: 497046828}
   m_Layer: 0
-  m_Name: Wander (10)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6965,7 +6965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497046826}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1283442301}
@@ -6997,7 +6997,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 497046826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -7032,7 +7032,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &497046832
 MeshRenderer:
@@ -7098,7 +7098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &507801898
 Transform:
   m_ObjectHideFlags: 0
@@ -7971,7 +7971,7 @@ Transform:
   - {fileID: 268256187}
   - {fileID: 287028959}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &547952540
 GameObject:
@@ -10637,7 +10637,7 @@ GameObject:
   - component: {fileID: 706217811}
   - component: {fileID: 706217810}
   m_Layer: 0
-  m_Name: Wander (22)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10651,7 +10651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706217808}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: -4, y: 1, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1367063784}
@@ -10683,7 +10683,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 706217808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -10718,7 +10718,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &706217814
 MeshRenderer:
@@ -12158,7 +12158,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776396192}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 09e4658ef21fe4e1da6447e761e70678, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -12399,7 +12399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 790684454}
   m_Layer: 0
-  m_Name: ColorTrailsMovePosition
+  m_Name: MovePositionWanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12442,7 +12442,7 @@ Transform:
   - {fileID: 245577839}
   - {fileID: 342463983}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &790774702
 GameObject:
@@ -13396,7 +13396,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855167316}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 09e4658ef21fe4e1da6447e761e70678, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -13642,7 +13642,7 @@ GameObject:
   - component: {fileID: 953595505}
   - component: {fileID: 953595504}
   m_Layer: 0
-  m_Name: Wander (14)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13656,7 +13656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953595502}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 2, y: 1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1116325344}
@@ -13688,7 +13688,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 953595502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -13723,7 +13723,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &953595508
 MeshRenderer:
@@ -13852,7 +13852,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955694822}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 09e4658ef21fe4e1da6447e761e70678, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -14711,7 +14711,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003978520}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 09e4658ef21fe4e1da6447e761e70678, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -15610,7 +15610,7 @@ GameObject:
   - component: {fileID: 1096959295}
   - component: {fileID: 1096959294}
   m_Layer: 0
-  m_Name: Wander (2)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15624,7 +15624,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096959292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: -2, y: 1, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1976883618}
@@ -15656,7 +15656,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1096959292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -15691,7 +15691,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1096959298
 MeshRenderer:
@@ -17162,154 +17162,6 @@ MonoBehaviour:
   - 0.2
   - 0.35
   trailColor: 
---- !u!1 &1183634956
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1183634962}
-  - component: {fileID: 1183634961}
-  - component: {fileID: 1183634960}
-  - component: {fileID: 1183634959}
-  - component: {fileID: 1183634958}
-  - component: {fileID: 1183634957}
-  - component: {fileID: 1183634963}
-  m_Layer: 0
-  m_Name: CapsuleWander
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!143 &1183634957
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183634956}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1183634958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183634956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d60844cfaeaa3448bb81d1b5a43762ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  directionChangeInterval: 1
-  maxHeadingChange: 30
---- !u!136 &1183634959
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183634956}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1183634960
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183634956}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: c05cf47ce975f4eddac6ddf29974c779, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1183634961
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183634956}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1183634962
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183634956}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.2, y: 1.579, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1183634963
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183634956}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 0
 --- !u!1 &1198895703
 GameObject:
   m_ObjectHideFlags: 0
@@ -17552,7 +17404,7 @@ GameObject:
   - component: {fileID: 1222493926}
   - component: {fileID: 1222493925}
   m_Layer: 0
-  m_Name: Wander (17)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17566,7 +17418,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222493923}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 4, y: 1, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1758635963}
@@ -17598,7 +17450,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1222493923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -17633,7 +17485,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1222493929
 MeshRenderer:
@@ -17700,7 +17552,7 @@ GameObject:
   - component: {fileID: 1234561918}
   - component: {fileID: 1234561917}
   m_Layer: 0
-  m_Name: Wander (7)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17714,7 +17566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234561915}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 290615477}
@@ -17746,7 +17598,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1234561915}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -17781,7 +17633,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1234561921
 MeshRenderer:
@@ -19254,7 +19106,7 @@ GameObject:
   - component: {fileID: 1336677333}
   - component: {fileID: 1336677332}
   m_Layer: 0
-  m_Name: Wander (13)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19268,7 +19120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336677330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 2, y: 1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1575043521}
@@ -19300,7 +19152,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1336677330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -19335,7 +19187,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1336677336
 MeshRenderer:
@@ -19722,7 +19574,7 @@ GameObject:
   - component: {fileID: 1344842378}
   - component: {fileID: 1344842377}
   m_Layer: 0
-  m_Name: Wander (20)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19736,7 +19588,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344842375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 4, y: 1, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1121080890}
@@ -19768,7 +19620,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1344842375}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -19803,7 +19655,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1344842381
 MeshRenderer:
@@ -19870,7 +19722,7 @@ GameObject:
   - component: {fileID: 1346496304}
   - component: {fileID: 1346496303}
   m_Layer: 0
-  m_Name: Wander (1)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19884,7 +19736,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346496301}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: -2, y: 1, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1956742234}
@@ -19916,7 +19768,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1346496301}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -19951,7 +19803,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1346496307
 MeshRenderer:
@@ -20864,7 +20716,7 @@ GameObject:
   - component: {fileID: 1406617173}
   - component: {fileID: 1406617172}
   m_Layer: 0
-  m_Name: Wander (4)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20878,7 +20730,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406617170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: -2, y: 1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 177947906}
@@ -20910,7 +20762,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1406617170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -20945,7 +20797,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1406617176
 MeshRenderer:
@@ -21055,7 +20907,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414072149}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 09e4658ef21fe4e1da6447e761e70678, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -21535,7 +21387,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442631301}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 09e4658ef21fe4e1da6447e761e70678, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -23349,7 +23201,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589695980}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 09e4658ef21fe4e1da6447e761e70678, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -25039,7 +24891,7 @@ GameObject:
   - component: {fileID: 1731250563}
   - component: {fileID: 1731250562}
   m_Layer: 0
-  m_Name: Wander (9)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25053,7 +24905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731250560}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1130064574}
@@ -25085,7 +24937,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1731250560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -25120,7 +24972,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1731250566
 MeshRenderer:
@@ -25201,7 +25053,7 @@ Transform:
   - {fileID: 1414072155}
   - {fileID: 955694829}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1755447679
 GameObject:
@@ -25219,7 +25071,7 @@ GameObject:
   - component: {fileID: 1755447682}
   - component: {fileID: 1755447681}
   m_Layer: 0
-  m_Name: Wander (23)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25265,7 +25117,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1755447679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -25300,7 +25152,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1755447685
 MeshRenderer:
@@ -25402,7 +25254,7 @@ GameObject:
   - component: {fileID: 1775990558}
   - component: {fileID: 1775990557}
   m_Layer: 0
-  m_Name: Wander (18)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25416,7 +25268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775990555}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 4, y: 1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1007612063}
@@ -25448,7 +25300,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1775990555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -25483,7 +25335,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1775990561
 MeshRenderer:
@@ -25710,7 +25562,7 @@ GameObject:
   - component: {fileID: 1794693418}
   - component: {fileID: 1794693417}
   m_Layer: 0
-  m_Name: Wander (3)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25724,7 +25576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794693415}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: -2, y: 1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1116928388}
@@ -25756,7 +25608,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1794693415}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -25791,7 +25643,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1794693421
 MeshRenderer:
@@ -25858,7 +25710,7 @@ GameObject:
   - component: {fileID: 1807731573}
   - component: {fileID: 1807731572}
   m_Layer: 0
-  m_Name: Wander (19)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25872,7 +25724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807731570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 4, y: 1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1648843763}
@@ -25904,7 +25756,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1807731570}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -25939,7 +25791,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1807731576
 MeshRenderer:
@@ -26171,7 +26023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1838242373
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26228,7 +26080,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838242372}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 09e4658ef21fe4e1da6447e761e70678, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -28562,7 +28414,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043086627}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 09e4658ef21fe4e1da6447e761e70678, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -28793,7 +28645,7 @@ GameObject:
   - component: {fileID: 2051316135}
   - component: {fileID: 2051316134}
   m_Layer: 0
-  m_Name: Wander (15)
+  m_Name: WanderComplex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28807,7 +28659,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051316132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 1, z: 1}
+  m_LocalPosition: {x: 2, y: 1, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 625716133}
@@ -28839,7 +28691,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2051316132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f0216ec01e4a4786db20b90caf056, type: 3}
+  m_Script: {fileID: 11500000, guid: d239289cf957b44628b18af2b20a7df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 3
@@ -28874,7 +28726,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.4, y: 1, z: 1.4}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2051316138
 MeshRenderer:
