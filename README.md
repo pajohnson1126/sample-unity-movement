@@ -24,7 +24,7 @@ A Hello World! for basic physics in game engines. Just press play!
 
 
 
-![hello](Assets/Hello_Davidson/Textures/screenshot.png)
+![hello](Assets/Physics_Basic/Textures/screenshot.png)
 
 
 ## PhysicsBasic
