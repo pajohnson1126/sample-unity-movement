@@ -15,6 +15,12 @@ public class MovePositionWander : PhysicsBase {
 
 
 
+
+
+
+
+
+
 	private void Start ()
 	{
 		// get container collider
@@ -33,7 +39,9 @@ public class MovePositionWander : PhysicsBase {
 		}
 
 		// look at wayPoint
-		transform.LookAt (wayPoint);
+		//transform.LookAt (wayPoint);
+		// slowly rotate towards the wayPoint
+		RotateTowardsTargetOverTime (wayPoint, 1f, 3f);
 
 		//Debug.Log (wayPoint + " and " + (transform.position - wayPoint).magnitude);
 
@@ -92,5 +100,28 @@ public class MovePositionWander : PhysicsBase {
 		);
 	}
 
+
+
+
+	/**
+	 *  Turn transform towards a target a little each frame
+	 */
+	void RotateTowardsTargetOverTime (Vector3 target, float minRotateTime, float maxRotateTime)
+	{
+		// Determine which direction to rotate towards
+		Vector3 targetDirection = target - transform.position;
+
+		// The step size is equal to speed times frame time.
+		float rotateStep = Random.Range (minRotateTime, maxRotateTime) * Time.deltaTime;
+
+		// Rotate the forward vector towards the target direction by one step
+		Vector3 newDirection = Vector3.RotateTowards (transform.forward, targetDirection, rotateStep, 0.0f);
+
+		// Draw a ray pointing at our target in
+		Debug.DrawRay (transform.position, newDirection, Color.red);
+
+		// Calculate a rotation a step closer to the target and applies rotation to this object
+		transform.rotation = Quaternion.LookRotation (newDirection);
+	}
 
 }
