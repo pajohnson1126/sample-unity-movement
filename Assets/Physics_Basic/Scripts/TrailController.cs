@@ -5,7 +5,10 @@ using UnityEngine;
 public class TrailController : MonoBehaviour {
 
 	public TrailRenderer trail;
+	public int siblingCount;
 	public int trailIndex;
+	public int trailParentIndex;
+	public float trailWidth;
 	public float [] positionsByIndex = { -0.35f, -0.2f, 0, .2f, .35f };
 	public string trailColor;
 	Color color;
@@ -17,10 +20,12 @@ public class TrailController : MonoBehaviour {
 
 	private void Awake ()
 	{
-		// get renderer
+		// get renderer and metadata about siblings and parents in hierarchy
 		trail = GetComponent<TrailRenderer> ();
-		// get index in hierarchy
+		siblingCount = transform.parent.childCount;
+		trailWidth = siblingCount * .08f;
 		trailIndex = transform.GetSiblingIndex ();
+		trailParentIndex = transform.parent.parent.GetSiblingIndex ();
 
 		// get random color string 
 		trailColor = colors [(int)Random.Range (0, colors.Length - 1)];
@@ -34,13 +39,15 @@ public class TrailController : MonoBehaviour {
 		transform.localPosition = new Vector3 (positionsByIndex [trailIndex], 0, 0);
 
 		// set w & h
-		trail.startWidth = 0.45f;
-		trail.endWidth = 0.2f;
+		trail.startWidth = trailWidth; // 5 = 0.45f
+		trail.endWidth = trailWidth;
 
 		// set vertices
 		trail.numCornerVertices = 10;
 		trail.numCapVertices = 5;
 
+		// set the sorting order to its parent's index
+		trail.sortingOrder = trailParentIndex;
 	}
 
 
