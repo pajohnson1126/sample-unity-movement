@@ -11,7 +11,7 @@ public class MovePositionWanderComplex : PhysicsBase {
 	Collider worldContainerCollider;    // collider to test new positions
 	public Vector3 wayPoint;            // new position to head towards
 	public float targetThreshold = 1f;  // test distance to target - must be > 0
-	public float pointSelectRange = 6f; // range from which to select new wayPoint
+	public float pointSelectRange = 8f; // range from which to select new wayPoint
 
 
 
@@ -24,6 +24,13 @@ public class MovePositionWanderComplex : PhysicsBase {
 		wayPoint = ReturnNewWanderPoint ();
 	}
 
+	protected override void Update ()
+	{
+		base.Update ();
+
+		ShowRayBetweenPoints (transform.position, wayPoint);
+	}
+
 	void FixedUpdate ()
 	{
 		// when the distance between gameObject and target is small enough
@@ -31,6 +38,8 @@ public class MovePositionWanderComplex : PhysicsBase {
 			// create a new target wayPoint 
 			wayPoint = ReturnNewWanderPoint ();
 		}
+
+
 
 		// slowly rotate towards the wayPoint
 		RotateTowardsTargetOverTime (wayPoint, 1f, 3f);
@@ -48,6 +57,14 @@ public class MovePositionWanderComplex : PhysicsBase {
 
 	}
 
+
+	/**
+	 *	Show ray between two points 
+	 */
+	void ShowRayBetweenPoints (Vector3 p1, Vector3 p2)
+	{
+		Debug.DrawRay (p1, (p2 - p1), Color.yellow);
+	}
 
 	/**
       *  Return a new target wander point within bounds of collider
