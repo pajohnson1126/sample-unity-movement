@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tween : MonoBehaviour {
+public class TweenBounce : MonoBehaviour {
 
 	// animate the game object from -1 to +1 and back
 	public float minimum = -1.0F;
