@@ -21,14 +21,14 @@ public class TransformBezier : MonoBehaviour {
 
 	void Update ()
 	{
-
-
+		// update distance
 		distanceFromTarget = (transform.position - target).magnitude;
 
-
+		// if reset 
 		if (distanceTraveled < 1.0f) {
+			// add speed * time
 			distanceTraveled += speed * Time.deltaTime;
-
+			// get direction from angles
 			Vector3 m1 = Vector3.Lerp (lastPosition, vertex, distanceTraveled);
 			Vector3 m2 = Vector3.Lerp (vertex, target, distanceTraveled);
 			direction = Vector3.Lerp (m1, m2, distanceTraveled);
@@ -39,13 +39,11 @@ public class TransformBezier : MonoBehaviour {
 			Reset ();
 		}
 
-		// updated position
+		// updated position and angle rays
 		ShowRayBetweenPoints (transform.position, target, Color.green);
-		// triangle
 		ShowRayBetweenPoints (lastPosition, target, Color.yellow);
 		ShowRayBetweenPoints (lastPosition, vertex, Color.blue);
 		ShowRayBetweenPoints (target, vertex, Color.red);
-
 	}
 
 
@@ -56,8 +54,6 @@ public class TransformBezier : MonoBehaviour {
 		distanceTraveled = 0.0f;
 		target = ReturnRandomPoint (0, 30);
 		vertex = ReturnVertex (transform.position, target);
-
-
 	}
 
 
