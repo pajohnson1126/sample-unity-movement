@@ -33,17 +33,28 @@ A Hello World! for basic physics in game engines. Just press play!
 
 ![hello](Assets/Movement_Basic/Textures/screenshot.png)
 
-Examples of common methods for moving GameObjects in Unity. See the class reference sheets on movement with [transform.position](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Vectors) and [physics](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Physics.md) for more details.
+Demonstrates common methods ([transform](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Vectors) vs. [physics](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Physics.md)) to move GameObjects. In the Hierarchy you will see...
 
-- CubesTranslate
-    - Four examples using `transform.Translate()` to "teleport" GameObject position.
-    - Controlling transform directly is fine for simple movement but all physics interactions (collisions, etc.) will not work as expected.
-- CubesMovePosition
-    - Four examples using `Rigidbody.MovePosition()`
-    - This method manipulates `transform.position` inside `FixedUpdate()`, but calculates collision (mostly) along the way.
-- CubesAddforce
-    - Four examples using `AddForce()`.
 
+### Movement via tween
+
+- **SphereTween** - "bounce" movement using `Mathf.Lerp` on `transform.position`
+- **CubesTranslate** - uses `transform.Translate()` to "teleport" GameObject position.
+	1. Input - Parameters received from keyboard input
+	1. Floating - Params from `Mathf.Sin` and `Mathf.Cos`
+	1. Noise – Params from `Mathf.PerlinNoise()`
+
+Note: Affecting transform directly is fine for simple movement but remember that physics interactions (collisions, etc.) will not work as expected.
+
+
+### Movement moved via Physics
+
+- **CubesMovePosition** - uses `Rigidbody.MovePosition()` to manipulate `transform.position` inside `FixedUpdate()`, but calculates collision (mostly) along the way.
+	1. Input, Floating, and Noise examples - same as above but with `MovePosition`
+	1. All the wander examples use a wandering algorithm
+- **CubesAddforce** - Uses `AddForce()` so physics and collision are computed.
+	1. Input, Floating, Noise, and Wander examples - same as above except with `AddForce()` which affects velocity and feels much more like floating in space
+- **MovePositionWanderComplex** and **AddForceWanderComplex** contain duplicates of the above in order to measure performance.
 
 
 

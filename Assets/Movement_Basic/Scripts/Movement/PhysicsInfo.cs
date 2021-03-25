@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PhysicsInfo : MonoBehaviour {
 
-	public float speed;
+	public Vector3 velocity; // rate AND DIRECTION of motion
+	public float speed; // rate of motion
 	public float angularSpeed;
 	protected Rigidbody rb;
 
@@ -25,6 +26,7 @@ public class PhysicsInfo : MonoBehaviour {
 		// - Velocity is also affected by forces acting against it
 		// - ^ For example, the drag value (a.k.a. "air resistance") will slow the effect of the force
 		// - ^ More drag means more resistance (feather = 20, stone = 1)
+		velocity = rb.velocity;
 		speed = rb.velocity.magnitude;
 
 		// Angular speed
