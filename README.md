@@ -61,14 +61,16 @@ Note: Affecting transform directly is fine for simple movement but remember that
 
 ## Movement_Constrain
 
-- **Constrain GameObject to an area**
+![hello](Assets/Movement_Constrain/Sprites/movement-constrain-screenshot.png)
+
+- **Constrain GameObject to an area** - Click and drag Tally to see constraints (using [`Bounds`](https://docs.unity3d.com/ScriptReference/Bounds.html)) or move the product monster (with arrow keys).
 
 
 
 
 ## Movement_Rotation
 
-- **Rotation Examples**
+- **Rotation Examples** - Use arrow keys to move the center object
 
 
 
