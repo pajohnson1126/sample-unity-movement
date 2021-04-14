@@ -59,6 +59,25 @@ Note: Affecting transform directly is fine for simple movement but remember that
 
 
 
+## Movement_Constrain
+
+- **Constrain GameObject to an area**
+
+
+
+
+## Movement_Rotation
+
+- **Rotation Examples**
+
+
+
+
+
+
+
+
+
 
 ## Resources
 
