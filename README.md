@@ -1,12 +1,11 @@
 
 
 
-# Sample Unity Physics
-
+# Sample Unity Movement
 
 A sample Unity (2020.1.2f1) project that shows
 
-- Essential physics concepts in Unity
+- Essential movement and physics concepts in Unity
 - [C# inheritance](https://learn.unity.com/tutorial/inheritance) with base and child classes
 - Basic use of the URP (Universal Render Pipeline)
 
@@ -21,7 +20,7 @@ A sample Unity (2020.1.2f1) project that shows
 A Hello World! for basic physics in game engines. Just press play!
 
 - What happens when you move the RigidBody from a letter to its individual cubes?
-- What happens when you turn the Fish GameObject on while the game is running?
+- What happens when you enable the Fish GameObject while the game is running?
 
 
 
@@ -59,16 +58,19 @@ Note: Affecting transform directly is fine for simple movement but remember that
 
 
 
-## Unity Physics Resources
 
 
-See these tutorials for more on Unity and Physics
+## Resources
 
+More info on movement and physics in Unity
 
-- [Unity Movement Vectors](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Movement-Vectors) and [Unity Movement Physics](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Movement-Physics.md) reference sheets
-- [Move in Unity3D - Ultimate Unity Tutorial](https://www.youtube.com/watch?v=fyV77lN1Yl0&ab_channel=JasonWeimann) (49:23)
-- [Unity Movement [RigidBody vs Translate]](https://www.youtube.com/watch?v=ixM2W2tPn6c&ab_channel=PressStart) (10:30)
-- [How to add Force correctly | Unity Physics 101 (1/3)](https://www.youtube.com/watch?v=BNiAt0HnC5M) (10:30)
+- Class References
+	- [Unity Movement Vectors](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Movement-Vectors)
+	- [Unity Movement Physics](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Movement-Physics.md)
+Tutorials
+	- [Move in Unity3D - Ultimate Unity Tutorial](https://www.youtube.com/watch?v=fyV77lN1Yl0&ab_channel=JasonWeimann) (49:23)
+	- [Unity Movement [RigidBody vs Translate]](https://www.youtube.com/watch?v=ixM2W2tPn6c&ab_channel=PressStart) (10:30)
+	- [How to add Force correctly | Unity Physics 101 (1/3)](https://www.youtube.com/watch?v=BNiAt0HnC5M) (10:30)
 
 
 
